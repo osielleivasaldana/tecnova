@@ -1,0 +1,32 @@
+{
+  "credentials": {
+    "email": "test26@pruebas.com",
+    "password": "pass123"
+  },
+  "billingDetails": {
+    "firstName": "Osiel",
+    "lastName": "Leiva",
+    "address": "Address 123",
+    "city": "Santiago",
+    "postcode": "849000",
+    "country": "Chile",
+    "region": "Region Metropolitana"
+  },
+  "products": [
+    {
+      "name": "MacBook",
+      "options": null
+    },
+    {
+      "name": "Canon EOS 5D",
+      "options": {
+        "color": "Red"
+      }
+    },
+    {
+      "name": "iPhone",
+      "options": null
+    }
+  ],
+  "comments": "Osiel Leiva Saldana 29-10-2024"
+}
