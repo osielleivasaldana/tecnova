@@ -18,28 +18,6 @@ Este proyecto es una automatización de pruebas end-to-end para un sitio web de 
 
 ### Estructura del Proyecto
 
-tecnova/
-├── pom.xml
-├── src/
-│   ├── main/
-│   │   └── java/
-│   │       └── pages/
-│   │           ├── CartPage.java  
-│   │           ├── CheckoutPage.java
-│   │           ├── LoginPage.java
-│   │           └── StorePage.java
-│   └── test/
-│       ├── java/
-│       │   ├── tests/
-│       │        ├── BaseTest.java
-│       │        ├── LoginTest.java
-│       │        └── PurchaseFlowTest.java
-│       │        └── TestData.java
-│       └── resources/
-│           └── testData.json
-└── target/
-    └── allure-results/
-
 
 - `src/test/java/pages/` — Contiene clases que representan cada página del sitio web, encapsulando la lógica de interacción con sus elementos.
   - **LoginPage.java**: Clase para manejar las acciones en la página de inicio de sesión.
