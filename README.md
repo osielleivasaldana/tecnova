@@ -5,6 +5,8 @@
 
 Este proyecto es una automatización de pruebas end-to-end para un sitio web de e-commerce utilizando Selenium con Java y el patrón de diseño **Page Object Model (POM)**. El flujo de pruebas incluye desde el inicio de sesión hasta la compra de productos, finalizando con la validación del historial de órdenes. Las pruebas están organizadas con **TestNG** y los reportes detallados se generan con **Allure**, proporcionando una solución integral para asegurar la calidad del sitio web.
 
+
+
 ### Tecnologías Utilizadas
 
 - **Selenium WebDriver**: Automatización de navegadores para la ejecución de pruebas.
@@ -15,6 +17,29 @@ Este proyecto es una automatización de pruebas end-to-end para un sitio web de 
 - **WebDriverManager**: Gestor automático del driver del navegador.
 
 ### Estructura del Proyecto
+
+tecnova/
+├── pom.xml
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── pages/
+│   │           ├── CartPage.java  
+│   │           ├── CheckoutPage.java
+│   │           ├── LoginPage.java
+│   │           └── StorePage.java
+│   └── test/
+│       ├── java/
+│       │   ├── tests/
+│       │        ├── BaseTest.java
+│       │        ├── LoginTest.java
+│       │        └── PurchaseFlowTest.java
+│       │        └── TestData.java
+│       └── resources/
+│           └── testData.json
+└── target/
+    └── allure-results/
+
 
 - `src/test/java/pages/` — Contiene clases que representan cada página del sitio web, encapsulando la lógica de interacción con sus elementos.
   - **LoginPage.java**: Clase para manejar las acciones en la página de inicio de sesión.
