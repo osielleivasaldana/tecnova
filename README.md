@@ -34,7 +34,7 @@ Este proyecto es una automatización de pruebas end-to-end para un sitio web de 
 
 1. **Clonar el repositorio**:
    ```sh
-   git clone <repositorio-url>
+   git clone https://github.com/osielleivasaldana/tecnova.git
    ```
 
 
